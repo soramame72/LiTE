@@ -367,7 +367,7 @@ private slots:
         }
         
         QString savePath = QFileDialog::getSaveFileName(this, 
-            QString::fromUtf8("ƒtƒ@ƒCƒ‹‚ğ•Û‘¶"), fileName);
+            QString::fromUtf8("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿å­˜"), fileName);
         
         if (!savePath.isEmpty()) {
             QFile* file = new QFile(savePath);
@@ -419,7 +419,7 @@ private slots:
         }
         
         QString savePath = QFileDialog::getSaveFileName(this, 
-            QString::fromUtf8("ƒtƒ@ƒCƒ‹‚ğ•Û‘¶"), fileName);
+            QString::fromUtf8("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿å­˜"), fileName);
         
         if (!savePath.isEmpty()) {
             QFile* file = new QFile(savePath);
@@ -581,7 +581,7 @@ private slots:
             }
             
             QString savePath = QFileDialog::getSaveFileName(this, 
-                QString::fromUtf8("ƒtƒ@ƒCƒ‹‚ğ•Û‘¶"), fileName);
+                QString::fromUtf8("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿å­˜"), fileName);
             
             if (!savePath.isEmpty()) {
                 QFile* file = new QFile(savePath);
